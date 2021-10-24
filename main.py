@@ -23,7 +23,7 @@ class Auto:
     
     def cantidadAsientos(self):
         self.asientos = Asiento()
-        return self.asientos += 1
+        return self.asientos 
     
         
     
