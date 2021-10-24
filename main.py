@@ -22,16 +22,14 @@ class Auto:
         
     
     def cantidadAsientos(self):
-        pass
+        if(self.asientos == Asiento):
+            return self.asientos
+                
         
 
     def verificarIntegridad(self):
-        registro_asiento = Asiento()
-        registro_motor = Motor()
-        if (self.registro != registro_asiento.registro or self.registro != registro_motor):
-            print("Las piezas no son originales")
-        else:
-            print("Auto original")
+        pass
+        
 
 class Motor:
     def __init__(self, numeroCilindros, tipo, registro):
