@@ -26,7 +26,12 @@ class Auto:
         
 
     def verificarIntegridad(self):
-        pass
+        registro_asiento = Asiento()
+        registro_motor = Motor()
+        if (self.registro != registro_asiento.registro or self.registro != registro_motor):
+            print("Las piezas no son originales")
+        else:
+            print("Auto original")
 
 class Motor:
     def __init__(self, numeroCilindros, tipo, registro):
@@ -41,7 +46,7 @@ class Motor:
         if (valor == "electrico" or valor == "gasolina"):
             self.tipo = valor 
         else:
-            self.tipo = self.tipo 
+            self.tipo = self.tipo
 if __name__ == "__main__":
     main()
 
