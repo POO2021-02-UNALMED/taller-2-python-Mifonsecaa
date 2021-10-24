@@ -22,8 +22,8 @@ class Auto:
         
     
     def cantidadAsientos(self):
-        self.asientos = Asiento()
-        return self.asientos 
+        if(a.cantidadAsientos() == 2):
+            return self.asientos 
     
         
     
