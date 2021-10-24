@@ -45,5 +45,6 @@ class Motor:
             self.tipo = valor 
         else:
             self.tipo = self.tipo 
-
+if __name__ == "__main__":
+    main()
 
