@@ -22,8 +22,8 @@ class Auto:
         
     
     def cantidadAsientos(self):
-        if (self.asientos == Asiento):
-            return self.asientos
+        if (self.asientos == "Asiento"):
+            return self.asientos += 1
     
     def verificarIntegridad(self):
         if (self.registro != Auto.registro or self.registro != Motor.registro):
