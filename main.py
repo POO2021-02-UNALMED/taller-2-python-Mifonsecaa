@@ -8,7 +8,7 @@ class Asiento:
         if ( nuevoColor == "amarillo" or nuevoColor == "verde" or nuevoColor == "negro" or nuevoColor == "rojo"):
             self.color = nuevoColor
         else:
-            self.color = self.color
+            self.color = color
 
 class Auto:
     cantidadCreados = 0
@@ -22,8 +22,7 @@ class Auto:
         
     
     def cantidadAsientos(self):
-        if(self.asientos == Asiento):
-            return self.asientos
+        pass
                 
         
 
