@@ -23,7 +23,7 @@ class Auto:
     
     def cantidadAsientos(self):
         self.asientos = 0
-        for i in a.asientos:
+        for i in self.asientos:
             clase = (str(type(i))[17:24])
             if clase == "Asiento":
                 self.asientos += 1
