@@ -28,13 +28,22 @@ class Auto:
                 pass
             else:
                 numero += 1
-        return numero 
-            
-                
+        return numero      
         
 
     def verificarIntegridad(self):
-        pass
+        lista =[]
+        for i in self.asientos:
+            if i == None:
+                pass
+            else:
+                lista.append(i)
+        nuevo = lista[0]
+        nuevo1 = lista[1]
+        if (self.registro == self.motor.registro and self.registro == nuevo.registro and self.registro == nuevo1.registro):
+            print("Auto Original")
+        else:
+            print("Las piezas no son originales")
         
 
 class Motor:
