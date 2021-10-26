@@ -22,11 +22,13 @@ class Auto:
         
     
     def cantidadAsientos(self):
-        numero = 2
+        numero = 0
         for i in self.asientos:
             clase = (str(type(i))[17:24])
             if clase == "Asiento":
-                return numero 
+                numero += 1
+        return numero 
+            
                 
         
 
