@@ -8,7 +8,7 @@ class Asiento:
         if ( nuevoColor == "amarillo" or nuevoColor == "verde" or nuevoColor == "negro" or nuevoColor == "rojo"):
             self.color = nuevoColor
         else:
-            self.color = color
+            self.color = self.color
 
 class Auto:
     cantidadCreados = 0
